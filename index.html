@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+<link rel="stylesheet" href="css/estilos.css" type="text/css">
+<script type="text/javascript" src="js/funciones.js"></script>
+ 
+   
+</head>
+<body>
+    <h1 id="titulo">Manipulación del DOM</h1>
+    <button id="cambiarTexto">Cambiar Texto</button>
+    <button id="resaltar">Resaltar</button>
+    <button id="cambiarFondo">Cambiar Fondo</button>
+    <button id="editarBotones">Editar Botones</button>
+    <div class="menu">
+        <button id="menuBtn">Menú</button>
+        <div id="dropdown" class="dropdown">
+            <a href="#seccion1">Sección 1</a>
+            <a href="#seccion2">Sección 2</a>
+            <a href="#seccion3">Sección 3</a>
+        </div>
+    </div>
+    <div id="seccion1" class="seccion">
+        <h2>Sección 1</h2>
+        <div class="caja" contenteditable="true">Texto editable</div>
+    </div>
+    <div id="seccion2" class="seccion">
+        <h2>Sección 2</h2>
+        <div class="caja" contenteditable="true">Texto editable</div>
+    </div>
+    <div id="seccion3" class="seccion">
+        <h2>Sección 3</h2>
+        <div class="caja" contenteditable="true">Texto editable</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
